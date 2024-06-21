@@ -13,7 +13,6 @@
 </head>
 
 <body>
-
     <nav class="navbar bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
@@ -21,7 +20,6 @@
                 Instagram</a>
 
             <div class="d-flex">
-
                 <button type="button" class="btn btn-success me-2" data-bs-toggle="modal"
                     data-bs-target="#exampleModal">
                     Create a new post
@@ -36,15 +34,13 @@
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Close"></button>
                             </div>
-                            <div class="modal-body">
-                                <p>Capition:</p>
-                                <textarea id="espacio texto" name="espacio texto" rows="4" cols="50"></textarea>
-                            </div>
 
-                            <ul class="list-group list-group-horizontal">
-                                <li class="list-group-item"><i class="fa-solid fa-camera"></i></i></li>
-                                <li class="list-group-item"><i class="fa-solid fa-location-dot"></i></li>
-                            </ul>
+                            <div class="modal-body">
+                                <h6>Caption:</h6>
+                                <textarea class="w-100 p-3" placeholder="Add the caption of your post here"></textarea>
+                                <button class="border border-0"><i class="fa-solid fa-camera"></i></button>
+                                <button class="border border-0"><i class="fa-solid fa-location-dot"></i></button>
+                            </div>
 
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -75,18 +71,230 @@
 
     <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
         <li class="nav-item" role="presentation">
-          <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"><i class="fa-solid fa-table-cells"></i></button>
+            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
+                type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"><i
+                    class="fa-solid fa-table-cells"></i></button>
         </li>
         <li class="nav-item" role="presentation">
-          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"><i class="fa-solid fa-square"></i></button>
+            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
+                type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">
+                <i class="fa-solid fa-square"></i></button>
         </li>
-      </ul>
-      <div class="tab-content" id="myTabContent">
-        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">...</div>
-        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">...</div>
-        <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
-        <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">...</div>
-      </div>
+    </ul>
+
+    <div class="tab-content">
+        <div class="tab-pane fade show active border border" id="home-tab-pane" role="tabpanel"
+            aria-labelledby="home-tab" tabindex="0">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-12 col-md-4 mb-4">
+                        <img src="https://i.pinimg.com/474x/8b/69/a9/8b69a9f41031ef4ac3555d0de4a8c271.jpg"
+                            class="img-fluid" style="height: 300px; object-fit: cover;">
+                    </div>
+                    <div class="col-12 col-md-4 mb-4">
+                        <img src="https://i.pinimg.com/736x/a0/91/6e/a0916e768b389e335e3a67681e5566be.jpg"
+                            class="img-fluid" style="height: 300px; object-fit: cover;">
+                    </div>
+                    <div class="col-12 col-md-4 mb-4">
+                        <img src="https://i.pinimg.com/474x/6a/66/49/6a66491f0ecca44fae76c5bcfe4655f4.jpg"
+                            class="img-fluid" style="height: 300px; object-fit: cover;">
+                    </div>
+                    <div class="col-12 col-md-4 mb-4">
+                        <img src="https://i.pinimg.com/474x/2a/bc/73/2abc73f9c1266ccf01c9a09a27bbb1e0.jpg"
+                            class="img-fluid" style="height: 300px; object-fit: cover;">
+                    </div>
+                    <div class="col-12 col-md-4 mb-4">
+                        <img src="https://i.pinimg.com/474x/38/ce/3f/38ce3f403cda2e4b3e9f5f2025f4dfd0.jpg"
+                            class="img-fluid" style="height: 300px; object-fit: cover;">
+                    </div>
+                    <div class="col-12 col-md-4 mb-4">
+                        <img src="https://i.pinimg.com/474x/08/c4/61/08c461d1c41afbb26225cd7261540b82.jpg"
+                            class="img-fluid" style="height: 300px; object-fit: cover;">
+                    </div>
+                    <div class="col-12 col-md-4 mb-4">
+                        <img src="https://i.pinimg.com/474x/f5/cc/54/f5cc54cd562d57b9d18adf8f528aec10.jpg"
+                            class="img-fluid" style="height: 300px; object-fit: cover;">
+                    </div>
+                    <div class="col-12 col-md-4 mb-4">
+                        <img src="https://i.pinimg.com/474x/e5/dc/05/e5dc0598585f65e406f8b476e22da6cc.jpg"
+                            class="img-fluid" style="height: 300px; object-fit: cover;">
+                    </div>
+                    <div class="col-12 col-md-4 mb-4">
+                        <img src="https://i.pinimg.com/474x/7b/fb/98/7bfb98ac655ba6b6e912211808c516f2.jpg"
+                            class="img-fluid" style="height: 300px; object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="tab-pane fade w-50 m-auto" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
+            tabindex="0">
+            <div class="border p-2 mb-2">
+                <div class="header-2 m-2">
+                    <div class="d-flex justify-content-between">
+                        <h4>Vibes</h4>
+                        <p>08/26</p>
+                    </div>
+                </div>
+                <div class="imagen-1">
+                    <img class="w-100 p-3" src="https://i.pinimg.com/474x/8b/69/a9/8b69a9f41031ef4ac3555d0de4a8c271.jpg"
+                        alt="tocadiscos">
+                </div>
+                <div class="footer-2">
+                    <p><strong> 204 Likes</strong></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ut dolores quasi aut modi alias
+                        sint expedita molestias voluptates, aperiam, mollitia nulla exercitationem sit. Quasi eaque
+                        totam ratione assumenda tempora!</p>
+                </div>
+            </div>
+            <div class="border p-2 mb-2">
+                <div class="header-2">
+                    <div class="d-flex justify-content-between">
+                        <h4>My birthday!</h4>
+                        <p>04/09</p>
+                    </div>
+                </div>
+                <div class="imagen-2">
+                    <img class="w-100 p-3" src="https://i.pinimg.com/736x/a0/91/6e/a0916e768b389e335e3a67681e5566be.jpg"
+                        alt="cumple">
+                </div>
+                <div class="footer-2">
+                    <P><strong>5465 Likes</strong></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ut dolores quasi aut modi alias
+                        sint expedita molestias voluptates, aperiam, mollitia nulla exercitationem sit. Quasi eaque
+                        totam ratione assumenda tempora!</p>
+                </div>
+            </div>
+            <div class="border p-2 mb-2">
+                <div class="header-2">
+                    <div class="d-flex justify-content-between">
+                        <h4>Paint time</h4>
+                        <p>06/10</p>
+                    </div>
+                </div>
+                <div class="imagen-3">
+                    <img class="w-100 p-3" src="https://i.pinimg.com/474x/6a/66/49/6a66491f0ecca44fae76c5bcfe4655f4.jpg"
+                        alt="pintura mar">
+                </div>
+                <div class="footer-2">
+                    <p><strong> 2209 Likes</strong></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ut dolores quasi aut modi alias
+                        sint expedita molestias voluptates, aperiam, mollitia nulla exercitationem sit. Quasi eaque
+                        totam ratione assumenda tempora!</p>
+                </div>
+            </div>
+            <div class="border p-2 mb-2">
+                <div class="header-2">
+                    <div class="d-flex justify-content-between">
+                        <h4>Weimar</h4>
+                        <p>08/27</p>
+                    </div>
+                </div>
+                <div class="imagen-4">
+                    <img class="w-100 p-3" src="https://i.pinimg.com/474x/2a/bc/73/2abc73f9c1266ccf01c9a09a27bbb1e0.jpg"
+                        alt="pintura pero">
+                </div>
+                <div class="footer-2">
+                    <p><strong> 128 Likes </strong></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ut dolores quasi aut modi alias
+                        sint expedita molestias voluptates, aperiam, mollitia nulla exercitationem sit. Quasi eaque
+                        totam ratione assumenda tempora!</p>
+                </div>
+            </div>
+            <div class="border p-2 mb-2">
+                <div class="header-2">
+                    <div class="d-flex justify-content-between">
+                        <h4>Relax</h4>
+                        <p>08/09</p>
+                    </div>
+                </div>
+                <div class="imagen-5">
+                    <img class="w-100 p-3" src="https://i.pinimg.com/474x/38/ce/3f/38ce3f403cda2e4b3e9f5f2025f4dfd0.jpg"
+                        alt="lampara sofa">
+                </div>
+                <div class="footer-2">
+                    <p><strong> 3828 Likes </strong></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ut dolores quasi aut modi alias
+                        sint expedita molestias voluptates, aperiam, mollitia nulla exercitationem sit. Quasi eaque
+                        totam ratione assumenda tempora!</p>
+                </div>
+            </div>
+            <div class="border p-2 mb-2">
+                <div class="header-2">
+                    <div class="d-flex justify-content-between">
+                        <h4> </h4>
+                        <p>05/24</p>
+                    </div>
+                </div>
+                <div class="imagen-6">
+                    <img class="w-100 p-3" src="https://i.pinimg.com/474x/08/c4/61/08c461d1c41afbb26225cd7261540b82.jpg"
+                        alt="Blair">
+                </div>
+                <div class="footer-2">
+                    <p><strong> 986 Likes </strong></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ut dolores quasi aut modi alias
+                        sint expedita molestias voluptates, aperiam, mollitia nulla exercitationem sit. Quasi eaque
+                        totam ratione assumenda tempora!</p>
+                </div>
+            </div>
+            <div class="border p-2 mb-2">
+                <div class="header-2">
+                    <div class="d-flex justify-content-between">
+                        <h4> Dolarsssss</h4>
+                        <p>04/25</p>
+                    </div>
+                </div>
+                <div class="imagen-7">
+                    <img class="w-100 p-3" src="https://i.pinimg.com/474x/f5/cc/54/f5cc54cd562d57b9d18adf8f528aec10.jpg"
+                        alt="niña dolares">
+                </div>
+                <div class="footer-2">
+                    <p><strong> 3678 Likes </strong></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ut dolores quasi aut modi alias
+                        sint expedita molestias voluptates, aperiam, mollitia nulla exercitationem sit. Quasi eaque
+                        totam ratione assumenda tempora!</p>
+                </div>
+            </div>
+            <div class="border p-2 mb-2">
+                <div class="header-2">
+                    <div class="d-flex justify-content-between">
+                        <h4>Help meeee</h4>
+                        <p>08/27</p>
+                    </div>
+                </div>
+                <div class="imagen-8">
+                    <img class="w-100 p-3" src="https://i.pinimg.com/474x/e5/dc/05/e5dc0598585f65e406f8b476e22da6cc.jpg"
+                        alt="burbuja super nenas">
+                </div>
+                <div class="footer-2">
+                    <p><strong> 128 Likes </strong></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ut dolores quasi aut modi alias
+                        sint expedita molestias voluptates, aperiam, mollitia nulla exercitationem sit. Quasi eaque
+                        totam ratione assumenda tempora!</p>
+                </div>
+            </div>
+            <div class="border p-2 mb-2">
+                <div class="header-2">
+                    <div class="d-flex justify-content-between">
+                        <h4>Job</h4>
+                        <p>01/19</p>
+                    </div>
+                </div>
+                <div class="imagen-9">
+                    <img class="w-100 p-3" src="https://i.pinimg.com/474x/7b/fb/98/7bfb98ac655ba6b6e912211808c516f2.jpg"
+                        alt="setup">
+                </div>
+                <div class="footer-2">
+                    <p><strong> 5678 Likes </strong></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ut dolores quasi aut modi alias
+                        sint expedita molestias voluptates, aperiam, mollitia nulla exercitationem sit. Quasi eaque
+                        totam ratione assumenda tempora!</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
